@@ -11,14 +11,7 @@ function App() {
   if (error) return <p>Failed to load.</p>;
   if (isLoading) return <p>Loading...</p>;
 
-  return (
-    <>
-      <p>Status : {data.description}</p>
-      <p>
-        <strong>Hello!</strong>
-      </p>
-    </>
-  );
+  return <p>Status : {data.description}</p>;
 }
 
 export default App;
